@@ -6,10 +6,10 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "tempur",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#1E1F24",
+    "navigationStyle": "custom"
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json",
-  "lazyCodeLoading": "requiredComponents"
+  "sitemapLocation": "sitemap.json"
 }

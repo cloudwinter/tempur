@@ -1,14 +1,24 @@
 /**index.wxss**/
 
+.page-dark {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1E1F24;
+  background-image: url("http://112.126.59.142:8080/tempur_bg_index@2x.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
 .container {
   display: flex;
   justify-content: center;
 }
 
 .logo {
-  width: 124px;
-  height: 165px;
-  margin-top: 180px;
+  width: 440rpx;
+  height: 440rpx;
+  margin-top: 180rpx;
 }
 
 .bottom {
