@@ -15,7 +15,7 @@
 }
 
 .dark .button-bg {
-  background: #1E1F24;
+  background: #1A2C55;
 }
 
 .dark .button-bg-selected {

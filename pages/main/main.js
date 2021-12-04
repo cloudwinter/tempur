@@ -113,12 +113,6 @@ Page({
    */
   onLoad: function (option) {
     console.info('main.Onshow');
-    // let contectedTest = {
-    //   deviceId: '111'
-    // };
-    // option = {
-    //   connected: JSON.stringify(contectedTest)
-    // }
     if (option && option.connected) {
       console.info("main.onLoad option", option);
       var connected = JSON.parse(option.connected);
