@@ -103,7 +103,7 @@ Page({
       },
     ],
     kuaijieType: 'K9',
-    weitiaoType: 'W5',
+    weitiaoType: 'W11',
     connected: {},
     smartSleepClickTime: 0,
   },

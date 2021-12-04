@@ -26,7 +26,7 @@
 				<image class="tiaozheng-button-icon" src="{{beibutzTop?imgSanjiao.imgSanjiaoTopSelected:imgSanjiao.imgSanjiaoTopNormal}}"></image>
 			</view>
 			<view class="tiaozheng-button-top-middle">
-				<image class="tiaozheng-type-icon" src="../../../images/{{skin}}/zhihan-xiao@3x.png"></image>
+				<image class="tiaozheng-type-icon" src="../../../images/{{skin}}/beibutiaozh-xiao@3x.png"></image>
 				<view class="tiaozheng-type-name">背部调整</view>
 			</view>
 			<view class="tiaozheng-button-top-right" bindtouchstart="touchStart" bindtouchend="touchEnd" data-type="beibutzBottom">
