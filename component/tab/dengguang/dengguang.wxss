@@ -14,8 +14,7 @@
 
 
 .dark .button-bg {
-  background: #1E1F24;
-  /* border-color: #5A9927; */
+  background: #1A2C55;
 }
 
 .dark .button-bg-selected {

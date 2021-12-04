@@ -27,7 +27,6 @@
 .orange .text-selected {
   color: #05BF74;
 }
-
 .orange .button-bg {
   background: #6E269A;
 }
