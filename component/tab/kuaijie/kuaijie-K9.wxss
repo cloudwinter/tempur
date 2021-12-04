@@ -4,9 +4,7 @@
 @import './../../../common/tab.wxss';
 
 /************common****************** */
-.dark .button-bg {
-  background: #1E1F24;
-}
+
 
 .dark .button-bg-selected {
   background-color: #1E1F24;
@@ -32,6 +30,13 @@
   padding-top: 20rpx;
   width: 100%;
 }
+.jiyiimg {
+  width: 324rpx;
+  height: 120rpx;
+  border-radius: 120rpx;
+  display: flex;
+  align-items: center;
+}
 
 .jiyi .button {
   width: 324rpx;
@@ -45,6 +50,7 @@
   width: 324rpx;
   height: 120rpx;
   margin-left: 30rpx;
+  position: relative;
 }
 
 .jiyi .middle {
@@ -55,6 +61,7 @@
   width: 324rpx;
   height: 120rpx;
   margin-right: 30rpx;
+  position: relative;
 }
 
 .jiyi-button-bg {
@@ -75,15 +82,19 @@
 
 .jiyi .button .name {
   color: white;
-  padding-left: 60rpx;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 
 
 .anjianqu {
   display: flex;
-  margin-left: 60rpx;
-  margin-right: 60rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
   margin-top: 80rpx;
   align-items: center;
   height: 120rpx;
@@ -91,14 +102,14 @@
 
 .anjianqu .anjian-left {
   flex: auto;
-  height: 160rpx;
+  height: 180rpx;
   display: flex;
   position: relative;
 }
 
 .anjianqu .anjian-middle {
-  width: 180rpx;
-  height: 160rpx;
+  width: 200rpx;
+  height: 180rpx;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,23 +118,23 @@
 
 .anjianqu .anjian-right {
   flex: auto;
-  height: 160rpx;
+  height: 180rpx;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
 }
 
 .anjian-bg {
-  width: 160rpx;
-  height: 160rpx;
+  width: 200rpx;
+  height: 180rpx;
   /* position: absolute;
   z-index: -1; */
 }
 
 .anjiian-content {
   display: flex;
-  height: 160rpx;
-  width: 160rpx;
+  height: 180rpx;
+  width: 200rpx;
   align-items: center;
   flex-direction: column;
   position: absolute;

@@ -2,9 +2,7 @@
 @import './../../../common/tab.wxss';
 
 /************common****************** */
-.dark .button-bg {
-  background: #1E1F24;
-}
+
 
 .dark .button-bg-selected {
   background-color: #1E1F24;
@@ -31,6 +29,14 @@
   width: 100%;
 }
 
+.jiyiimg {
+  width: 324rpx;
+  height: 120rpx;
+  border-radius: 120rpx;
+  display: flex;
+  align-items: center;
+}
+
 .jiyi .button {
   width: 324rpx;
   height: 120rpx;
@@ -43,6 +49,7 @@
   width: 324rpx;
   height: 120rpx;
   margin-left: 30rpx;
+  position: relative;
 }
 
 .jiyi .middle {
@@ -53,6 +60,7 @@
   width: 324rpx;
   height: 120rpx;
   margin-right: 30rpx;
+  position: relative;
 }
 
 .jiyi-button-bg {
@@ -73,7 +81,11 @@
 
 .jiyi .button .name {
   color: white;
-  padding-left: 60rpx;
+  position: absolute;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 

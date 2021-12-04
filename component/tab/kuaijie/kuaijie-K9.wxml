@@ -28,15 +28,15 @@
 </view>
 
 <view class="jiyi">
-  <view class="button left {{jiyi1?'button-bg-selected':'button-bg'}}" catchtap="tapJiyi1" bindtouchstart="touchStart" bindtouchend="touchEnd">
-    <image class="dian" wx:if="{{jiyi1}}" src="../../../images/{{skin}}/dian-green@3x.png"></image>
-    <image class="dian" wx:else src="../../../images/{{skin}}/dian-black@3x.png"></image> 
+  <view class="button left" catchtap="tapJiyi1" bindtouchstart="touchStart" bindtouchend="touchEnd">
+    <image class="jiyiimg" wx:if="{{jiyi1}}" src="../../../images/{{skin}}/jiyi_selected@3x.png"></image>
+			<image class="jiyiimg" wx:else src="../../../images/{{skin}}/jiyi_normal@3x.png"></image> 
     <view class="name">记忆一</view>
   </view>
   <view class="middle"></view>
-  <view class="button right {{jiyi2?'button-bg-selected':'button-bg'}}" catchtap="tapJiyi2" bindtouchstart="touchStart" bindtouchend="touchEnd">
-    <image class="dian" wx:if="{{jiyi2}}" src="../../../images/{{skin}}/dian-green@3x.png"></image>
-    <image class="dian" wx:else src="../../../images/{{skin}}/dian-black@3x.png"></image>
+  <view class="button right" catchtap="tapJiyi2" bindtouchstart="touchStart" bindtouchend="touchEnd">
+    <image class="jiyiimg" wx:if="{{jiyi2}}" src="../../../images/{{skin}}/jiyi_selected@3x.png"></image>
+			<image class="jiyiimg" wx:else src="../../../images/{{skin}}/jiyi_normal@3x.png"></image> 
     <view class="name">记忆二</view>
   </view>
 </view>
