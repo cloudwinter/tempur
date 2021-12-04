@@ -142,7 +142,7 @@
 
 .anjiian-content .anjian-icon{
   width: 100rpx;
-  height: 80rpx;
+  height: 100rpx;
   margin-top: 20rpx;
 }
 
