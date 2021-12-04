@@ -42,8 +42,8 @@ Page({
         "show": true
       },
       {
-        "selectedIconPath": "../../images/" + app.globalData.skin + "/tab_anno_selected@2x.png",
-        "iconPath": "../../images/" + app.globalData.skin + "/tab_anno_normal@2x.png",
+        "selectedIconPath": "../../images/" + app.globalData.skin + "/tab_anmo_selected@2x.png",
+        "iconPath": "../../images/" + app.globalData.skin + "/tab_anmo_normal@2x.png",
         "text": "按摩",
         "tapFunction": "toAnmo",
         "active": "active",
