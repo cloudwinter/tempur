@@ -102,8 +102,8 @@ Page({
         checked: false
       },
     ],
-    kuaijieType: 'K9',
-    weitiaoType: 'W11',
+    kuaijieType: '',
+    weitiaoType: '',
     connected: {},
     smartSleepClickTime: 0,
   },

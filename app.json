@@ -1,9 +1,10 @@
 {
   "pages": [
-    "pages/set/set",
-    "pages/main/main",
     "pages/index/index",
     "pages/search/search",
+    "pages/main/main",
+    "pages/alarm/alarm",
+    "pages/set/set",
     "pages/logs/logs"
   ],
   "window": {
