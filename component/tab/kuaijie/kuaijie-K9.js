@@ -156,6 +156,11 @@ Component({
             lingyali: true
           })
         }
+        if ('0F' == status) {
+          that.setData({
+            zhihan: true
+          })
+        }
       }
     },
 
