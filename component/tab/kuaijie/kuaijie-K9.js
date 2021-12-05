@@ -106,6 +106,8 @@ Component({
       var kandianshi = '1800039F06';
       // 零压力
       var lingyali = '2000031ECB';
+      // 止鼾
+      var zhihan = '3800039ECC';
 
       setTimeout(() => {
         cur.sendAskBlueCmd(jiyi1)
@@ -119,6 +121,9 @@ Component({
       setTimeout(() => {
         this.sendAskBlueCmd(lingyali)
       }, 400);
+      setTimeout(() => {
+        this.sendAskBlueCmd(zhihan)
+      }, 500);
     },
 
     /**
