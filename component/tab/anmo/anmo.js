@@ -130,8 +130,8 @@ Component({
         }
 
       } else if (prefix == anmopinglvReplyPrefix) {
-        console.info('anmo->按摩频率 blueReply', cmd,prefix,status);
-        // 按摩频率
+        console.info('anmo->震動频率 blueReply', cmd,prefix,status);
+        // 震動频率
         if (status == '24D7EB') {
           that.setData({anmopinglv:1})
         } else if (status == '25162B') {

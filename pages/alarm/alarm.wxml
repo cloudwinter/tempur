@@ -69,9 +69,9 @@
 				</view>
 
 
-				<!-- 按摩 -->
+				<!-- 震動 -->
 				<view class="item" style="margin-top:1px;">
-					<view class="item-left">按摩</view>
+					<view class="item-left">震動</view>
 					<view class="item-right">
 						<switch checked="{{alarm.anmo}}" bindchange="anmoSwitch" />
 					</view>

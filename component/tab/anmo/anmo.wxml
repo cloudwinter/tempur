@@ -6,7 +6,7 @@
 		<view class="donghuaqu">
 			<view class="dh-content">
 				<image class="dh-icon" src="../../../images/{{skin}}/anmo@3x.png"></image>
-				<view class="dh-name">按摩频率</view>
+				<view class="dh-name">震動频率</view>
 			</view>
 		</view>
 	</view>
@@ -52,7 +52,7 @@
 				</view>
 				<view class="anmo-button-top-middle">
 					<image class="anmo-type-icon" src="../../../images/{{skin}}/anmopinglv@3x.png"></image>
-					<view class="anmo-type-name">按摩频率</view>
+					<view class="anmo-type-name">震動频率</view>
 				</view>
 				<view class="anmo-button-top-right" bindtap="tapPlus" data-type="anmopinglv">
 					<image class="anmo-button-icon" src="../../../images/{{skin}}/plus-normal@3x.png"></image>
@@ -74,7 +74,7 @@
 				</view>
 				<view class="anmo-button-top-middle">
 					<image class="anmo-type-icon" src="../../../images/{{skin}}/toubuanmo@3x.png"></image>
-					<view class="anmo-type-name">头部按摩</view>
+					<view class="anmo-type-name">头部震動</view>
 				</view>
 				<view class="anmo-button-top-right" bindtap="tapPlus" data-type="toubu">
 					<image class="anmo-button-icon" src="../../../images/{{skin}}/plus-normal@3x.png"></image>
@@ -94,7 +94,7 @@
 				</view>
 				<view class="anmo-button-top-middle">
 					<image class="anmo-type-icon" src="../../../images/{{skin}}/zubuanmo@3x.png"></image>
-					<view class="anmo-type-name">腿部按摩</view>
+					<view class="anmo-type-name">腿部震動</view>
 				</view>
 				<view class="anmo-button-top-right" bindtap="tapPlus" data-type="tuibu">
 					<image class="anmo-button-icon" src="../../../images/{{skin}}/plus-normal@3x.png"></image>

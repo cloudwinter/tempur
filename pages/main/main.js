@@ -44,7 +44,7 @@ Page({
       {
         "selectedIconPath": "../../images/" + app.globalData.skin + "/tab_anmo_selected@2x.png",
         "iconPath": "../../images/" + app.globalData.skin + "/tab_anmo_normal@2x.png",
-        "text": "按摩",
+        "text": "震動",
         "tapFunction": "toAnmo",
         "active": "active",
         "show": true
@@ -484,7 +484,7 @@ Page({
         alarm.modeName = '不动作';
       }
 
-      // 按摩
+      // 震動
       let cmdAnmo = cmd.substr(30, 2);
       alarm.anmo = '01' == cmdAnmo ? true : false;
 

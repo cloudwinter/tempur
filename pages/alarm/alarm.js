@@ -344,7 +344,7 @@ Page({
   },
 
   /**
-   * 按摩选择
+   * 震動选择
    * @param {*} e 
    */
   anmoSwitch: function (e) {
@@ -441,7 +441,7 @@ Page({
       sendAlarmCmdPre += '03';
     }
 
-    // 按摩
+    // 震動
     let anmo = alarm.anmo;
     if (anmo) {
       sendAlarmCmdPre += '01';
