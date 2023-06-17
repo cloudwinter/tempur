@@ -27,6 +27,7 @@
 		</view>
 		<view class="tab-container" hidden="{{nowPage!='weitiao'}}">
 			<weitiao-W3 wx:if="{{weitiaoType=='W3'}}"></weitiao-W3>
+      <weitiao-W4 wx:if="{{weitiaoType=='W4'}}"></weitiao-W4>
 			<weitiao-W5 wx:if="{{weitiaoType=='W5'}}"></weitiao-W5>
 			<weitiao-W11 wx:if="{{weitiaoType=='W11'}}"></weitiao-W11>
 		</view>
