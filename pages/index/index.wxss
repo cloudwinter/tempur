@@ -4,7 +4,7 @@
   width: 100vw;
   height: 100vh;
   background-color: #1E1F24;
-  background-image: url("http://112.126.59.142:8080/tempur_bg_index@2x.png");
+  background-image: url("https://yhjx.oss-cn-beijing.aliyuncs.com/ddc/tempur/tempur_bg_index%402x.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   position: relative;

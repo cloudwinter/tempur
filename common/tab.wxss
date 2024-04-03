@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("http://112.126.59.142:8080/top_donghua_yuan@2x.png");
+  background-image: url("https://yhjx.oss-cn-beijing.aliyuncs.com/ddc/tempur/ic_top_donghua_yuan.png");
   background-position: 50% 50%;
   background-size: cover;  
 }
