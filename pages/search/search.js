@@ -530,19 +530,16 @@ Page({
 
       if (name.indexOf('QMS-NQ') >= 0 ||
         name.indexOf('Tempur-N') >= 0 ||
+        name.indexOf('QMS3-N93') >= 0 ||
+        name.indexOf('QMS3-N03') >= 0 ||
         name.indexOf('Tempur-K') >= 0 ||
+        name.indexOf('QMS-KQ') >= 0 ||
         name.indexOf('QMS-K01') >= 0 ||
         name.indexOf('S3-4') >= 0 ||
         name.indexOf('Tempur-Q') >= 0 ||
         name.indexOf('Tempur-X') >= 0 ||
+        name.indexOf('QMS-MQ') >= 0 ||
         name.indexOf('QMS2') >= 0) {
-        return true;
-      }
-
-      if (name.indexOf('Tempur-K') >= 0 ||
-        name.indexOf('Tempur-N') >= 0 ||
-        name.indexOf('Tempur-Q') >= 0 ||
-        name.indexOf('Tempur-X') >= 0) {
         return true;
       }
     }
@@ -558,11 +555,14 @@ Page({
     if (name) {
       if (name.indexOf('QMS-NQ') >= 0 ||
         name.indexOf('Tempur-N') >= 0 ||
+        name.indexOf('QMS3-N93') >= 0 ||
+        name.indexOf('QMS3-N03') >= 0 ||
         name.indexOf('QMS2') >= 0 ||
+        name.indexOf('QMS-MQ') >= 0 ||
         name.indexOf('Tempur-Q') >= 0 ||
         name.indexOf('Tempur-X') >= 0) {
         return 'K2';
-      } else if (name.indexOf('Tempur-K') >= 0 ||
+      } else if (name.indexOf('Tempur-K') >= 0 || name.indexOf('QMS-KQ') >= 0 ||
         name.indexOf('QMS-K01') >= 0) {
         return 'K3';
       } else if (name.indexOf('S3-4') >= 0) {
@@ -580,14 +580,15 @@ Page({
    */
   getWeitiaoType(name) {
     if (name) {
-      if (name.indexOf('QMS-NQ') >= 0 || name.indexOf('Tempur-N') >= 0) {
+      if (name.indexOf('QMS-NQ') >= 0 || name.indexOf('Tempur-N') >= 0 || name.indexOf('QMS3-N93') >= 0|| name.indexOf('QMS3-N03') >= 0) {
         return 'W3'
-      } else if (name.indexOf('Tempur-K') >= 0 ||
+      } else if (name.indexOf('Tempur-K') >= 0 || name.indexOf('QMS-KQ') >= 0 ||
         name.indexOf('QMS-K01') >= 0) {
         return 'W5'
       } else if (name.indexOf('S3-4') >= 0) {
         return 'W11';
       } else if (name.indexOf('QMS2') >= 0 ||
+        name.indexOf('QMS-MQ') >= 0 ||
         name.indexOf('Tempur-Q') >= 0 ||
         name.indexOf('Tempur-X') >= 0) {
         return 'W4';
