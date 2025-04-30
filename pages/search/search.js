@@ -165,7 +165,7 @@ Page({
     console.log('onBluetoothDeviceFound 启动', lastConnectedDeviceId, firstAutoConnected);
     wx.onBluetoothDeviceFound(function (res) {
       console.log("onBluetoothDeviceFound 搜索到", res);
-      if (res.devices[0]) {
+      // if (res.devices[0]) {
         var mac = util.ab2hex(res.devices[0].advertisData);
         var sn = mac.slice(4, 8);
         if (sn == '88a0') {
@@ -220,7 +220,7 @@ Page({
             }
           }
         }
-      }
+      // }
     })
   },
 
