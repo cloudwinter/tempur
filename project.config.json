@@ -46,7 +46,7 @@
     "minifyWXML": true
   },
   "compileType": "miniprogram",
-  "libVersion": "2.20.2",
+  "libVersion": "3.9.2",
   "appid": "wx72187c1432cfe5e4",
   "projectname": "tempur",
   "condition": {},
